@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RachmawatiApp</string>
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="button_Login">Login</string>
+    <string name="btn_islami">Islamic Quotes</string>
+    <string name="btn_lastread">Last Read Surah Tracker</string>
+    <string name="preference_file_key">com.rachma.rachmawatiapp.PREFERENCE_FILE_KEY</string>
+
+</resources>

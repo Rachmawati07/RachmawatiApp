@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:id="@+id/llNoteHolder"
+    android:layout_height="wrap_content">
+
+    <!-- - Merupakan text view untuk menampilkan text
+         - Mempunyai id berupa tvNote
+         - Mempunyai jenis font sans-serif-medium
+         - Mempunyai ukuran text sebesar 16sp
+         - Tulisan dibold
+         - Mempunyai warna dengan kode warna #040303
+    -->
+    <TextView
+        android:id="@+id/tvNote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:text="TextView"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:textColor="#040303"
+        android:background="#40c4ff"
+        android:textStyle="bold"/>
+
+    <!-- - image button untuk menampilkan icon edit button
+         - Mempunyai id berupa ibEditNote
+         - Icon berasal dari @drawable
+    -->
+    <ImageButton
+        android:id="@+id/ibEditNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffdc00"
+        android:padding="12dp"
+        app:srcCompat="@drawable/edit_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <!-- - image button untuk menampilkan icon delete button
+         - Mempunyai id berupa idDeleteNote
+         - Icon berasal dari @drawable
+    -->
+    <ImageButton
+        android:id="@+id/ibDeleteNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff2e12"
+        android:padding="12dp"
+        app:srcCompat="@drawable/delete_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>

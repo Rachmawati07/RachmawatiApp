@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689966985490",
+    "project_id": "sample-app-fc535",
+    "storage_bucket": "sample-app-fc535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689966985490:android:c93d3c2f70b4618d04c3cb",
+        "android_client_info": {
+          "package_name": "com.rachma.rachmawatiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689966985490-v7r2bo33rhju5r8rts0gu53b7nfhgrpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpG8Hk9bRkmM6GTd_JicCAKXYlVxZAfYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689966985490-v7r2bo33rhju5r8rts0gu53b7nfhgrpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

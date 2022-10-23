@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quotes.Update">
+
+    <!-- Text view yang menampilkan tulisan berupa update quotes -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="UPDATE QUOTES"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <!-- - Merupakan edit text untuk mengupdate data
+             - Mempunyai id berupa etNoteUpdate
+             - Menampilkan tulisan hint berupa Quote text
+        -->
+        <EditText
+            android:id="@+id/etNoteUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quote Text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- - Merupakan button untuk update
+             - Mempunyai id berupa btNoteUpdate
+             - Mempunyai tulisan berupa Update
+        -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/btNoteUpdate"/>
+    </LinearLayout>
+
+</FrameLayout>
