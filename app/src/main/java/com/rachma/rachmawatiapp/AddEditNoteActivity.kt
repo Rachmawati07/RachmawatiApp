@@ -13,7 +13,7 @@ import java.util.*
 
 // Untuk mendeklarasikan class yang bernama AddEditNoteActivity
 class AddEditNoteActivity : AppCompatActivity() {
-    // Untuk mendeklarasikan variabel yang bernama noteTitleEdt, noteEdt, saveBtn untuk komponen UUI
+    // Untuk mendeklarasikan variabel yang bernama noteTitleEdt, noteEdt, saveBtn untuk komponen UI
     lateinit var noteTitleEdt: EditText
     lateinit var noteEdt: EditText
     lateinit var saveBtn: Button

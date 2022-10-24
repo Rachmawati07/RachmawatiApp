@@ -25,7 +25,7 @@ class NoteAdapter(private val listFragment: ListFragment): RecyclerView.Adapter<
         )
     }
 
-    // Untuk memanggil fungsi onBiindViewHolder
+    // Untuk memanggil fungsi onBindViewHolder
     // Untuk mendeklarasikan variabel yang bernama note
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val note = notes[position]

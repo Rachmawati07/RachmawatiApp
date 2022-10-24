@@ -64,7 +64,7 @@ class ListActivity : AppCompatActivity(), NoteClickInterface, NoteClickDeleteInt
 
     // Untuk memanggil method onNoteClick
     override fun onNoteClick(note: Note) {
-        // Untuk membukan intent baru dan memberikan data kesana.
+        // Untuk membuka intent baru dan memberikan data kesana.
         val intent = Intent(this@ListActivity, AddEditNoteActivity::class.java)
         intent.putExtra("noteType", "Edit")
         intent.putExtra("noteTitle", note.noteTitle)
@@ -76,7 +76,7 @@ class ListActivity : AppCompatActivity(), NoteClickInterface, NoteClickDeleteInt
 
     // Untuk memanggil method onDeleteIconClick
     override fun onDeleteIconClick(note: Note) {
-        // Untuk memanggil method delete dari view modal untuk mnghapus data atau tidak
+        // Untuk memanggil method delete dari view modal untuk menghapus data atau tidak
         viewModal.deleteNote(note)
 
         // Untuk menampilkan pesan dalam bentuk toast
