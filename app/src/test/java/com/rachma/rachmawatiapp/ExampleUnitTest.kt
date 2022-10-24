@@ -1,4 +1,4 @@
-package app.rachma.rachmawatiapp
+package com.rachma.rachmawatiapp
 
 import org.junit.Test
 

@@ -8,7 +8,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.rachma.rachmawatiapp.note.Note
-import com.rachma.rachmawatiapp.quotes.MainActivity
 import java.text.SimpleDateFormat
 import java.util.*
 
